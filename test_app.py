@@ -8,7 +8,6 @@ class TestApp(unittest.TestCase):
         self.assertEqual(calculate_area(5, 2), 10)
 
     def test_area_zero(self):
-        # בדיקה ששטח עם אפס הוא אפס
         self.assertEqual(calculate_area(0, 10), 0)
 
 if __name__ == '__main__':
