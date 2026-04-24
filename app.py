@@ -1,4 +1,4 @@
-from flask import Flaskdsfdfgtfsd
+from flask import Flask
 
 app = Flask(__name__)
 
