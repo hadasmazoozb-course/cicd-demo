@@ -7,7 +7,7 @@ def calculate_area(width, height):
 
 @app.route('/')
 def home():
-    return "Python CI/CD Pipeline is Live!"
+    return "Python CI/CD Pipeline is Live!!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
